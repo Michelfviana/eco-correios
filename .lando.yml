@@ -1,0 +1,5 @@
+name: eco-correios
+recipe: laravel
+config:
+  webroot: public
+  database: mariadb:10.4
