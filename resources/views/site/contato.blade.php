@@ -17,7 +17,7 @@
 
         <div class="menu">
             <ul>
-                <li><a href="{{ route('site.index') }}">Principal</a></li>
+                <li><a href="{{ route('site.index') }}">Home</a></li>
                 <li><a href="{{ route('site.sobrenos') }}">Sobre Nós</a></li>
                 <li><a href="{{ route('site.contato') }}">Contato</a></li>
             </ul>
@@ -39,13 +39,13 @@
                     <input type="text" placeholder="E-mail" class="borda-preta">
                     <br>
                     <select class="borda-preta">
-                        <option value="">Qual o motivo do contato?</option>
-                        <option value="">Dúvida</option>
-                        <option value="">Elogio</option>
-                        <option value="">Reclamação</option>
+                        <option value="motivo">Qual o motivo do contato?</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="reclamacao">Reclamação</option>
                     </select>
                     <br>
-                    <textarea class="borda-preta">Preencha aqui a sua mensagem</textarea>
+                    <textarea class="borda-preta" placeholder="Preencha aqui a sua mensagem"></textarea>
                     <br>
                     <button type="submit" class="borda-preta">ENVIAR</button>
                 </form>
